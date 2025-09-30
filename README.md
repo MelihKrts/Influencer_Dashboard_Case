@@ -1,17 +1,24 @@
-# Nasıl Çalıştırılır.
+# Influencer DashBoard Uygulama Case
+![DashBoard](dashboard_ss.png)
 
-# Readme
-## Nasıl Çalıştırılır
-Lokal ortamda terminal üzerinden gerekli paketler indirildikten sonra pnpm install ve pnpm run dev komutları ile çalıştırılabilir.
+## Projeyi Çalıştırma
+- Repo'yu klonlayın: `git clone reponun URL'si `
+- Gerekli paketleri yükleyin: `pnpm install`
+- Uygulamayı başlatın: `pnpm run dev`
+- Tarayıcıda açın: `http://localhost:3000`
 
-canlı gösterim: 
+
 ## Kullanılan Teknolojiler
-- pnpm (package manager)
-- Next.js (App-router)
+- Next.Js 15
+- React.js 18
+- TypeScript
 - Tailwind.CSS
 - Recharts
+- React-Icons
+- Motion (framer-motion)
 - shadcn/ui
-- React-icons
-- motion
-## Tasarım Tercihi
-- Reusable component (yeniden kullanılabilir bileşen) tekrar edildiği için her seferinde aynı kodu yazmak yerine ilgili bileşeni çağırdım.
+
+## Tasarım Tercihleri
+- Estetik görünüm için modern ve okunaklı UI tasarlandı.
+- Kullanıcı geri bildirim için toast animasyonu kullanıldı
+- Menü linkleri efektif çalışması için settings, influencers adlı sayfalar oluşturuldu.
